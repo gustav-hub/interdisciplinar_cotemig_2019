@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Almarai|Be+Vietnam|Lobster|Russo+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=iService">
+    <meta name="author" content="iservice">
+    <meta name="keywords" content="premio omo, premiacao, branco premiado, campanha omo">
+
+     <title>iService</title>
+
+   <div class="brand" style="font-family: 'Russo One', sans-serif;">iService</div>
+    <div class="address-bar">Site de Divulgação da campanha "Branco Premiado!"</div>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/business-casual.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Branco Premiado</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+
+                    <li><a href="trabalheconosco.html">Trabalhe Conosco</a>
+                    </li>
+                    <li><a href="cadastrar.html">Cadastrar</a>
+                    </li>
+                    <li><a href="entrar.html">Entrar</a>
+                    </li>
+                        <li><a href="index_funcionarios.html">Funcionários</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+        <div class="row">
+            <div class="box">
+
+<form action="/action_page.php">
+  <div class="container">
+    <h1>Registrar como Funcionário</h1>
+    <p>Preencha os espaços para se cadastrar.</p>
+    <hr>
+  <label for="text"><b>Foto</b></label>
+  <br>
+  <input type="file" name="foto" alt="Enviar" >
+  <br>
+  <label for="text"><b>Nome Completo</b></label>
+    <input type="text" placeholder="Email" name="nome" required>
+    <label for="text"><b>Sexo</b></label>
+    <select name="sexo" class="form-control" required>
+        <option value="m">Masculino</option>
+        <option value="f">Feminino</option>
+        <option value="i">indeterminado</option>
+</select>
+    <label for="text"><b>Estado</b></label>
+    <input type="text" placeholder="Estado" name="estado" required>
+
+    <label for="text"><b>Cidade</b></label>
+    <input type="text" placeholder="Cidade" name="cidade" required>
+
+     <label for="text"><b>Bairro</b></label>
+    <input type="text" placeholder="Bairro" name="bairro" required>
+
+    <label for="text"><b>Rua</b></label>
+    <input type="text" placeholder="Rua" name="rua" required>
+
+    <label for="text"><b>Número</b></label>
+    <input type="text" placeholder="Número" name="numero" required>
+
+       <label for="text"><b>Telefone</b></label>
+    <input type="text" placeholder="Telefone" name="telefone" required>
+
+        <label for="text"><b>Usuário</b></label>
+    <input type="text" placeholder="Usuário" name="usuario" required>
+
+        <label for="email"><b>E-mail</b></label>
+    <input type="text" placeholder="E-mail" name="email" required>
+
+    <label for="psw"><b>Senha</b></label>
+    <input type="password" placeholder="Senha" name="psw" required>
+
+    <label for="psw-repeat"><b>Confirmar Senha</b></label>
+    <input type="password" placeholder="Confirmar Senha" name="psw-repeat" required>
+    <hr>
+    <p>Ao criar sua conta você concorda com nossos <a href="#">Termos de Privacidade</a>.</p>
+
+    <button type="submit" class="registerbtn">Registrar</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Já tem uma conta? <a href="#">Fazer Login</a>.</p>
+  </div>
+</form>
+
+
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; 2019 - OMO Empresa</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    // Activates the Carousel
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
+</body>
+
+</html>
